@@ -5,7 +5,7 @@ import joblib
 import os
 
 # Load dataset
-df = pd.read_csv("data/Mall_Customers.csv")
+df = pd.read_csv("data/mall_customers.csv")
 
 # Features
 X = df[['Age', 'Annual Income (k$)', 'Spending Score (1-100)']]

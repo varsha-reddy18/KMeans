@@ -24,7 +24,7 @@ with open("style.css") as f:
 # --------------------------
 # Load Dataset
 # --------------------------
-df = pd.read_csv("data/Mall_Customers.csv")
+df = pd.read_csv("data/mall_customers.csv")
 
 # Load Model
 model = joblib.load("models/kmeans_model.pkl")
